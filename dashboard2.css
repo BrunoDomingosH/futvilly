@@ -1,0 +1,222 @@
+body
+{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho
+{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;    
+
+}
+
+.menu
+{
+    width: 30px;
+    height: 2.5px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.menu_conta
+{
+    width: 100%;
+    height: 290px;
+}
+
+.lateral
+{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border-right:1px outset black ;
+
+    
+  
+}
+.lateral
+{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    left: -285px;
+
+    
+   
+}
+.animar
+{
+    animation: deslizar 2s forwards;
+}
+@keyframes deslizar
+{
+    0%{left:-285px;}    
+    100%{left:0px;} 
+}
+
+.fechar
+{
+    margin-top: 15px;
+    margin-left: 210px;
+    border-radius: 20px;
+    font-size: 18px;
+    display: flex;
+
+}
+
+h1
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.rodape
+{
+    height: 25px;
+    width: 100%;
+    background-color: #c0c0c094;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #33333394;
+}
+
+
+.rodape2
+{
+    font-size: 18px;
+    color: #333333;
+}
+
+.escalados
+{
+    width: 89%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(230, 226, 226);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.titulares
+{
+
+    background-color: rgb(230, 226, 226);
+    display: flex;
+    padding: auto; 
+    text-align: center;
+    font-size: 18px;
+
+    width: 130px;
+    margin-left: 10px;
+    text-align: center; 
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 360px;
+    
+}
+
+.botao
+{
+    width: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    padding: auto; 
+    text-align: center; 
+    margin-top: -110%;
+
+}
+
+.jogadores
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.clube
+{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.foto
+{
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+hr
+{
+    width: 310px;
+}
+
+.nome
+{
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.time
+{
+    font-weight: bold;
+    
+}
+
+.jorge
+{
+    margin-left: 18px;
+}
+
+.jogador
+{
+    text-align: center;
+}
